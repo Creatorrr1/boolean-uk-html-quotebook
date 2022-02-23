@@ -34,6 +34,10 @@ header {
     gap: 8px;
 }
 
+.pad-md {
+    padding: 16px;
+}
+
 /* ---- layout ends ---- */
 
 /* ---- header starts ---- */
@@ -62,8 +66,20 @@ header .brand {
 .quote-box {
     width: 1fr;
     min-height: 150px;
-    background-color: rgb(148, 184, 148);
+    /* background-color: rgb(148, 184, 148); */
     border-radius: 10px;
+}
+
+.green-color {
+    background-color: rgb(148, 184, 148);
+}
+
+.orange-color {
+    background-color: orange;
+}
+
+.teal-color {
+    background-color: teal;
 }
 
 
@@ -80,9 +96,6 @@ header .brand {
     text-align: center;
 }
 
-.pad-md {
-    padding: 16px;
-}
 
 /* ---- Main ends ----*/
 
