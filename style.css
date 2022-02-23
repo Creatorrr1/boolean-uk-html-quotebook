@@ -1,0 +1,43 @@
+/* Layout */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+    scroll-behavior: smooth;
+  }
+
+body { 
+
+  }
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  
+    padding: 30px 20px;
+    /* border-top: 10px solid burlywood; */
+  
+    background-color: #801732;
+  }
+
+.center-wrapper {
+    display: grid;
+    grid-template-areas: ". center .";
+    grid-template-columns: 1fr 600px 1fr;
+}
+
+.center {
+    grid-area: cover-content;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+/* layout */
+header .brand {
+    color: white;
+  }
+
+
+
