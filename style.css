@@ -1,43 +1,75 @@
-/* Layout */
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  
-    scroll-behavior: smooth;
-  }
-
-body { 
-
-  }
+/* ---- layout start ---- */
 
 header {
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
-  
+    
     padding: 30px 20px;
     /* border-top: 10px solid burlywood; */
   
     background-color: #801732;
-  }
+
+}
+
+.first-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px dotted #801732;
+}
 
 .center-wrapper {
-    display: grid;
-    grid-template-areas: ". center .";
-    grid-template-columns: 1fr 600px 1fr;
-}
-
-.center {
-    grid-area: cover-content;
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
-
-
-/* layout */
-header .brand {
-    color: white;
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 700px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 1fr;
+    
   }
 
+.scroll {
+    overflow: scroll;
+}
 
+.gap-md {
+    gap: 8px;
+}
+
+/* ---- layout ends ---- */
+
+/* ---- header starts ---- */
+
+header .brand {
+    color: white;
+    line-height: 90px;
+    
+}
+
+.fixed-size {
+    width: 100%;
+    height: 150px;
+}
+
+.sticky {
+    position: fixed;
+    margin: 0;
+    top: 0;
+}
+
+/* ----header ends ---- */
+
+/* ---- Main start ---- */
+
+.quote-box {
+    width: 1fr;
+    min-height: 150px;
+    background-color: rgb(148, 184, 148);
+    border-radius: 10px;
+}
+
+main {
+    margin-top: ;
+}
+
+/* ---- Main ends ----*/
 
